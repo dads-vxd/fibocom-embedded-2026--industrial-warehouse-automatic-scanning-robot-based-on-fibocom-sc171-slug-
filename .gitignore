@@ -1,0 +1,35 @@
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / Frontend
+node_modules/
+dist/
+
+# CMake / C++ build files
+**/build/
+**/build-test/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+
+# STM32 / Keil build output
+**/Output/
+*.o
+*.obj
+*.axf
+*.map
+*.lst
+
+# IDE / System
+.DS_Store
+Thumbs.db
+.idea/
