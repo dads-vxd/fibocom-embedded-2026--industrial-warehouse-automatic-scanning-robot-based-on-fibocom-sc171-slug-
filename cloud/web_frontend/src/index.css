@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #1e1e2e;
+  --color-surface: #313244;
+  --color-surface1: #45475a;
+  --color-text: #cdd6f4;
+  --color-subtext: #a6adc8;
+  --color-lavender: #cba6f7;
+  --color-blue: #89b4fa;
+  --color-green: #a6e3a1;
+  --color-yellow: #f9e2af;
+  --color-red: #f38ba8;
+  --color-peach: #fab387;
+  --color-border: #45475a;
+  --color-overlay: rgba(0,0,0,0.7);
+  --color-glass-border: rgba(255,255,255,0.1);
+}
+
+:root {
+  --bg: var(--color-bg);
+  --surface: var(--color-surface);
+  --surface1: var(--color-surface1);
+  --text: var(--color-text);
+  --subtext: var(--color-subtext);
+  --lavender: var(--color-lavender);
+  --blue: var(--color-blue);
+  --green: var(--color-green);
+  --yellow: var(--color-yellow);
+  --red: var(--color-red);
+  --peach: var(--color-peach);
+  --border: var(--color-border);
+  --overlay: var(--color-overlay);
+}
+
+@property --color-bg {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #1e1e2e;
+}
+@property --color-surface {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #313244;
+}
+@property --color-surface1 {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #45475a;
+}
+@property --color-text {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #cdd6f4;
+}
+@property --color-subtext {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #a6adc8;
+}
+@property --color-lavender {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #cba6f7;
+}
+@property --color-blue {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #89b4fa;
+}
+@property --color-green {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #a6e3a1;
+}
+@property --color-yellow {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #f9e2af;
+}
+@property --color-red {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #f38ba8;
+}
+@property --color-peach {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #fab387;
+}
+@property --color-border {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #45475a;
+}
+@property --color-overlay {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgba(0, 0, 0, 0.7);
+}
+@property --color-glass-border {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: rgba(255, 255, 255, 0.1);
+}
+
+:root {
+  transition: --color-bg 0.3s, --color-surface 0.3s, --color-surface1 0.3s,
+    --color-text 0.3s, --color-subtext 0.3s, --color-lavender 0.3s,
+    --color-blue 0.3s, --color-green 0.3s, --color-yellow 0.3s,
+    --color-red 0.3s, --color-peach 0.3s, --color-border 0.3s,
+    --color-overlay 0.3s, --color-glass-border 0.3s;
+}
+
+body {
+  background-color: var(--color-bg);
+  background-image: url("/dark.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+body[data-theme="light"] {
+  background-image: url("/light.png");
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@utility glass {
+  background-color: color-mix(in srgb, var(--color-surface) 70%, transparent);
+  --tw-blur: blur(16px);
+  -webkit-backdrop-filter: var(--tw-blur);
+  backdrop-filter: var(--tw-blur);
+  border: 1px solid var(--color-glass-border);
+}
+
+@utility glass-light {
+  background-color: color-mix(in srgb, var(--color-surface1) 50%, transparent);
+  --tw-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-blur);
+  backdrop-filter: var(--tw-blur);
+  border: 1px solid var(--color-glass-border);
+}
+
+@utility glass-strong {
+  background-color: color-mix(in srgb, var(--color-surface) 85%, transparent);
+  --tw-blur: blur(24px);
+  -webkit-backdrop-filter: var(--tw-blur);
+  backdrop-filter: var(--tw-blur);
+  border: 1px solid var(--color-glass-border);
+}
