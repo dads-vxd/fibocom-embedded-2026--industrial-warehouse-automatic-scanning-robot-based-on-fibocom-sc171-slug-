@@ -1,0 +1,38 @@
+{
+  "model_path": "./models/best.onnx",
+  "ws_url": "wss://gt.yelob.vip/ws/device",
+  "control_ws_url": "wss://gt.yelob.vip/ws/device-control",
+  "video_upload_url": "https://gt.yelob.vip/api/videos",
+  "blur_threshold": 100.0,
+  "serial_enabled": true,
+  "serial_port": "/dev/ttyUSB0",
+  "serial_baud_rate": 9600,
+  "video_record": {
+    "enabled": true,
+    "fps": 5.0,
+    "segment_seconds": 30,
+    "max_width": 1280,
+    "max_height": 720
+  },
+  "preprocess": {
+    "scale": 2.0,
+    "enable_clahe": true,
+    "clahe_clip_limit": 3.0,
+    "enable_sharpen": true,
+    "sharpen_alpha": 1.5,
+    "enable_binary": true,
+    "binary_block_size": 31,
+    "binary_c": 10
+  },
+  "cameras": [
+    {
+      "device_id": "/dev/video4",
+      "enabled": true,
+      "preprocess": {}
+    },{
+    	"device_id": "/dev/video2",
+	"enabled": true,
+	"preprocess":{}
+    }
+  ]
+}
