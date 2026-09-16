@@ -1,0 +1,124 @@
+[
+  {
+    "category_id": 1,
+    "data": "011069237179690124103080201522125122000140072000",
+    "fields": {
+      "quantity": "500张",
+      "auxiliary_code": "0308020152",
+      "company": "深圳裕同",
+      "model": "FK/GDX2*欧式",
+      "production_date": "20251220(2536901)"
+    }
+  },
+  {
+    "category_id": 1,
+    "data": "011069237179690124103080201522125122000200046000",
+    "fields": {
+      "quantity": "500张",
+      "auxiliary_code": "0308020152",
+      "company": "深圳裕同",
+      "model": "FK/GDX2*欧式",
+      "production_date": "20251220(2536901)"
+    }
+  },
+  {
+    "category_id": 1,
+    "data": "011069237179690124103080201522125122000200039000",
+    "fields": {
+      "quantity": "500张",
+      "auxiliary_code": "0308020152",
+      "company": "深圳裕同",
+      "model": "FK/GDX2*欧式",
+      "production_date": "20251220(2536901)"
+    }
+  },
+  {
+    "category_id": 2,
+    "data": "011069237179690124103080201522125122000140053000",
+    "fields": {
+      "quantity": "500张",
+      "auxiliary_code": "0308020152",
+      "company": "深圳裕同",
+      "model": "FK/GDX2",
+      "production_date": "20251220(2536901)"
+    }
+  },
+  {
+    "category_id": 2,
+    "data": "0110692371796911241030702016022126010900170009000",
+    "fields": {
+      "quantity": "2500张",
+      "auxiliary_code": "0307020160",
+      "company": "深圳裕同",
+      "model": "FK/GDX2",
+      "production_date": "20260109(2626911)"
+    }
+  },
+  {
+    "category_id": 2,
+    "data": "0110692371796911241030702016022126010900170006000",
+    "fields": {
+      "quantity": "2500张",
+      "auxiliary_code": "0307020160",
+      "company": "深圳裕同",
+      "model": "FK/GDX2",
+      "production_date": "20260109(2626911)"
+    }
+  },
+  {
+    "category_id": 3,
+    "data": "011695666664123224103090300362125111300007400402",
+    "fields": {
+      "weight": "9.1884",
+      "auxiliary_code": "0309030036",
+      "company": "鑫叶公司包装车间",
+      "joint": "62.0g114mm1300m",
+      "production_date": "20251113(2551232)"
+    }
+  },
+  {
+    "category_id": 3,
+    "data": "011695666664123224103090300362125111300007400404",
+    "fields": {
+      "weight": "9.1884",
+      "auxiliary_code": "0309030036",
+      "company": "鑫叶公司包装车间",
+      "joint": "62.0g114mm1300m",
+      "production_date": "20251113(2551232)"
+    }
+  },
+  {
+    "category_id": 3,
+    "data": "011695666664123224103090300362125111100003100102",
+
+    "fields": {
+      "weight": "9.1884",
+      "auxiliary_code": "0309030036",
+      "company": "鑫叶公司包装车间",
+      "joint": "62.0g114mm1300m",
+      "production_date": "20251113(2551232)"
+    }
+  },
+  {
+    "category_id": 4,
+    "data": "011695666664123224103090300362125111300007400402",
+    "fields": {
+      "weight": "16.86825",
+      "auxiliary_code": "0309030028",
+      "company": "鑫叶公司包装车间",
+      "joint": "255.0g94.5mm700m",
+      "production_date": "20251217(2581141)"
+    }
+  },
+  {
+    "category_id": 4,
+    "data": "011695666664114124103100300282125121700000501201",
+    "fields": {
+      "weight": "16.86825",
+      "auxiliary_code": "0309030028",
+      "company": "鑫叶公司包装车间",
+      "joint": "255.0g94.5mm700m",
+      "production_date": "20251217(2581141)"
+    }
+  }
+]

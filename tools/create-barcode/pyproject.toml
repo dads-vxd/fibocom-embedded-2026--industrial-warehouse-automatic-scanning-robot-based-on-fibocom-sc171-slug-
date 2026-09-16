@@ -1,0 +1,12 @@
+[project]
+name = "barcode-create"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "opencv-python>=5.0.0.93",
+    "qrcode[pil]>=7.4",
+    "python-barcode>=0.15",
+    "Pillow>=10.0",
+]
